@@ -24,7 +24,7 @@ export default function RootLayout({
         className={`${inter.className} antialiased`}
         suppressHydrationWarning={true}
       >
-        <div className="flex gap-8 h-full">
+        <div className="flex h-full">
           <Sidebar />
           {children}
         </div>
